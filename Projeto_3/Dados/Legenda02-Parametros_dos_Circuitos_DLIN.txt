@@ -1,0 +1,15 @@
+Coluna,Nome Completo / Unidade,Descrição
+De,Barra de Partida,Número da barra de origem do circuito.
+Para,Barra de Chegada,Número da barra de destino do circuito.
+NcEP,Código do Tipo de Circuito,Indicador do tipo de elemento (Geralmente 1 para linhas e transformadores).
+R%,Resistência em Série,Valor da resistência em Percentual (%).
+X%,Reatância em Série,Valor da reatância em Percentual (%).
+Bsh​/2,Susceptância Shunt de Meio Circuito,Valor da potência reativa capacitiva da linha em Mvar.
+Tap,Relação de Transformação,"Fator de ajuste de tensão, ou Tap do transformador."
+Tmn,Limite Mínimo do Tap,Valor mínimo permitido para a Relação de Transformação.
+Tmx,Limite Máximo do Tap,Valor máximo permitido para a Relação de Transformação.
+Phs,Deslocamento de Fase,Ângulo de defasagem (para Transformadores Defasadores).
+Bc,Susceptância Shunt do Capacitor,Valor da Susceptância do capacitor shunt em p.u.
+Cn (MVA),Capacidade Normal do Circuito,Limite térmico de potência aparente em MVA para operação normal.
+Ce (MVA),Capacidade Emergencial do Circuito,Limite térmico de potência aparente em MVA para emergência.
+Ns,Número do Circuito,Indicador de circuitos múltiplos ou status operacional.

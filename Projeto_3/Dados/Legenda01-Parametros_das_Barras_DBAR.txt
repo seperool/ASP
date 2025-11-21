@@ -1,0 +1,13 @@
+Coluna,Nome Completo / Unidade,Descrição
+Cod,Código da Linha,"Classificação da linha no arquivo de dados brutos (L2, L1, L)."
+Tipo,Tipo de Barra,"Classificação para o Fluxo de Potência (SLACK, PV, PQ)."
+V,Tensão Inicial,Módulo da Tensão da barra em Volts (V).
+A,Ângulo Inicial,Ângulo da Tensão da barra em Graus ($\text{^\circ}$).
+Pg,Potência Ativa Gerada,Potência ativa injetada na barra em MW.
+Qg,Potência Reativa Gerada,Potência reativa injetada na barra em Mvar.
+Qn,Limite Inferior de Potência Reativa,Limite mínimo de Qg​ em Mvar.
+Qm,Limite Superior de Potência Reativa,Limite máximo de Qg​ em Mvar.
+Pl,Potência Ativa da Carga,Potência ativa consumida na barra em MW.
+Ql,Potência Reativa da Carga,Potência reativa consumida na barra em Mvar.
+Bc,Susceptância Shunt,Susceptância shunt fixa da barra em p.u.
+Vf,Flag de Tensão,Código de referência ou nível de tensão (valor bruto 11000).ontrole para checagem de limites.
