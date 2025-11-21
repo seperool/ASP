@@ -1,0 +1,34 @@
+# PLANO DE PROJETO: FLUXO DE POTÊNCIA (IEEE 14 BARRAS)
+# Autor: Sergio Pedro Rodrigues Oliveira
+# Data Limite: 07/12/25
+# Início: 19/11/25
+# Data Atualização: 21/11/25
+
+# LEGENDA: [X] = Concluído | [P] = Em Progresso | [ ] = A Fazer
+# PRIORIDADE: 1 = Crítico / Deve ser feito primeiro; 5 = Finalização
+
+======================================================================
+BACKLOG DE TAREFAS
+======================================================================
+
+| PRIORIDADE | MÓDULO | STATUS | DETALHAMENTO DA TAREFA
+|------------|--------|--------|----------------------------------------
+| 1 (Setup)  | GERAL  | [ ]    | Detalhamento das datas de entrega (Trabalho 3)
+| 1 (Setup)  | VISUAL | [ ]    | Desenhar "Diagrama Unifilar de Barras" 
+|------------|--------|--------|----------------------------------------
+| 2 (Dados)  | INPUT  | [ ]    | Colocar os dados de entrada num formato mais aceitável (vetorizados, DataFrame)
+| 2 (Dados)  | INPUT  | [ ]    | Correção dos dados para p.u. (unidade por unidade)
+|------------|--------|--------|----------------------------------------
+| 3 (Core)   | YBUS   | [ ]    | Y_barra (Implementação da Matriz de Admitância)
+| 3 (Core)   | CORE   | [ ]    | Definir variáveis de estado (Criação do vetor x de 22 var.)
+|------------|--------|--------|----------------------------------------
+| 4 (Core)   | POTÊN. | [ ]    | Implementar as equações de potências P e Q ($P_{k}$ e $Q_{k}$) para cálculo das injeções.
+| 4 (Core)   | CALC.  | [ ]    | Calcular as potências injetadas ($\mathbf{P_{calc}, Q_{calc}}$) a partir das variáveis de estado atuais e da $\mathbf{Y_{bus}}$.
+| 4 (Core)   | MISMA. | [ ]    | Cálculo do Vetor Mismatch ($\Delta \mathbf{F}$) (Erro: Espec. - Calc.)
+| 4 (Core)   | JACOB  | [ ]    | Definir derivadas (Jacobiana - Cálculo dos blocos H, N, M, L) 
+| 4 (Core)   | LOOP   | [ ]    | Método de Newton (Correção de teta e v) (Resolver $\mathbf{J} \Delta \mathbf{x} = \Delta \mathbf{F}$)
+|------------|--------|--------|----------------------------------------
+| 5 (Final)  | SAÍDA  | [ ]    | Resolução das potencias faltantes ($Q_{PV}$ e $P_{Slack}$)
+| 5 (Final)  | DOC    | [ ]    | Geração de Resultados e Finalização do Relatório
+
+======================================================================
