@@ -26,7 +26,7 @@ dados_barra = {
 df_barras = pd.DataFrame(dados_barra, index=range(1, 15))
 df_barras.index.name = 'Num'
 
-print(df_barras)
+#print(df_barras)
 
 # Dados de Circuitos (DLIN) – Dados Brutos
 dados_circuito = {
@@ -52,4 +52,4 @@ df_circuitos = pd.DataFrame(dados_circuito)
 # Definir um índice multi-nível (MultiIndex) para as barras de conexão (De, Para)
 df_circuitos = df_circuitos.set_index(['De', 'Para'])
 
-print(df_circuitos)
+#print(df_circuitos)
