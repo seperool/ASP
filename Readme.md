@@ -2,18 +2,21 @@
 
 Repositório com o material de estudos, projetos e códigos-fonte desenvolvidos para a disciplina de **Análise de Sistemas de Potência (ASP)**, do curso de Engenharia Elétrica no **CEFET-RJ/Nova Friburgo**.
 
-Este material está focado, no momento, no estudo de:
+Este material está focado, no estudo de **modelagem e análise de redes elétricas**, cobrindo os seguintes tópicos e ferramentas:
 
-* **Fluxo de Potência**
-  * **Matriz Y-barra**
+* **Modelagem de Componentes:** Representação de linhas de transmissão, transformadores e cargas.
+* **Matriz Y-barra** (Admitância de Barras): Implementação e uso para representar a topologia da rede.
+* **Fluxo de Potência (Load Flow):** Formulação e métodos de solução, como Gauss-Seidel e Newton-Raphson.
 
 ---
 
 ### Sumário
 
-* [Estrutura do Repositório](#estrutura-do-repositório)
-* [Ferramentas e Linguagens](#ferramentas-e-linguagens)
-* [Contribuição](#contribuição)
+- [Análise de Sistemas de Potência (ASP)](#análise-de-sistemas-de-potência-asp)
+    - [Sumário](#sumário)
+    - [Estrutura do Repositório](#estrutura-do-repositório)
+    - [Ferramentas e Linguagens](#ferramentas-e-linguagens)
+    - [Contribuição](#contribuição)
 
 ---
 
