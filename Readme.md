@@ -10,13 +10,13 @@ Este material está focado, no estudo de **modelagem e análise de redes elétri
 
 ---
 
-### Sumário
+## Sumário
 
 - [Análise de Sistemas de Potência (ASP)](#análise-de-sistemas-de-potência-asp)
-    - [Sumário](#sumário)
+  - [Sumário](#sumário)
     - [Estrutura do Repositório](#estrutura-do-repositório)
     - [Ferramentas e Linguagens](#ferramentas-e-linguagens)
-    - [Contribuição](#contribuição)
+      - [Contribuição](#contribuição)
 
 ---
 
@@ -40,7 +40,7 @@ Os códigos e projetos deste repositório foram desenvolvidos utilizando as segu
 
 ---
 
-### Contribuição
+#### Contribuição
 
 Este repositório é um registro do meu progresso e aprendizado na disciplina. Se você encontrou algo útil ou tem alguma sugestão, sinta-se à vontade para abrir uma *issue* ou um *pull request*.
 
