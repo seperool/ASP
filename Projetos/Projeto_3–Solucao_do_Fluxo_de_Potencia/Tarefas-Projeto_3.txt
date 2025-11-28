@@ -14,7 +14,7 @@ BACKLOG DE TAREFAS
 | PRIORIDADE | MÓDULO | STATUS | DETALHAMENTO DA TAREFA
 |------------|--------|--------|----------------------------------------
 | 1 (Setup)  | GERAL  | [X]    | Detalhamento das datas de entrega (Trabalho 3)
-| 1 (Setup)  | VISUAL | [X]    | Desenhar "Diagrama Unifilar de Barras" 
+| 1 (Setup)  | VISUAL | [P]    | Desenhar "Diagrama Unifilar de Barras" 
 |------------|--------|--------|----------------------------------------
 | 2 (Dados)  | INPUT  | [X]    | Colocar os dados de entrada num formato mais aceitável (vetorizados, DataFrame)
 | 2 (Dados)  | INPUT  | [X]    | Correção dos dados para p.u. (unidade por unidade)
