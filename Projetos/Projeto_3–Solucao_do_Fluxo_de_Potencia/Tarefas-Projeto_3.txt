@@ -2,7 +2,7 @@
 # Autor: Sergio Pedro Rodrigues Oliveira
 # Data Limite: 07/12/25
 # Início: 19/11/25
-# Data Atualização: 25/11/25
+# Data Atualização: 27/11/25
 
 # LEGENDA: [X] = Concluído | [P] = Em Progresso | [ ] = A Fazer
 # PRIORIDADE: 1 = Crítico / Deve ser feito primeiro; 5 = Finalização
@@ -14,7 +14,7 @@ BACKLOG DE TAREFAS
 | PRIORIDADE | MÓDULO | STATUS | DETALHAMENTO DA TAREFA
 |------------|--------|--------|----------------------------------------
 | 1 (Setup)  | GERAL  | [X]    | Detalhamento das datas de entrega (Trabalho 3)
-| 1 (Setup)  | VISUAL | [P]    | Desenhar "Diagrama Unifilar de Barras" 
+| 1 (Setup)  | VISUAL | [X]    | Desenhar "Diagrama Unifilar de Barras" 
 |------------|--------|--------|----------------------------------------
 | 2 (Dados)  | INPUT  | [X]    | Colocar os dados de entrada num formato mais aceitável (vetorizados, DataFrame)
 | 2 (Dados)  | INPUT  | [X]    | Correção dos dados para p.u. (unidade por unidade)
