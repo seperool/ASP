@@ -23,3 +23,4 @@ print(dt_linhas)
 # criar um DataFrame apenas com os dados necessários para Ybus
 #juntando as DataFrames de barras e linhas
 
+dt_linhas.to_csv('Dados_y.csv', index=False)
