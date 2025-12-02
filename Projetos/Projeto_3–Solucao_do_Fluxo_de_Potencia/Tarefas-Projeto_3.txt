@@ -2,7 +2,7 @@
 # Autor: Sergio Pedro Rodrigues Oliveira
 # Data Limite: 07/12/25
 # Início: 19/11/25
-# Data Atualização: 27/11/25
+# Data Atualização: 02/12/25
 
 # LEGENDA: [X] = Concluído | [P] = Em Progresso | [ ] = A Fazer
 # PRIORIDADE: 1 = Crítico / Deve ser feito primeiro; 5 = Finalização
@@ -19,10 +19,10 @@ BACKLOG DE TAREFAS
 | 2 (Dados)  | INPUT  | [X]    | Colocar os dados de entrada num formato mais aceitável (vetorizados, DataFrame)
 | 2 (Dados)  | INPUT  | [X]    | Correção dos dados para p.u. (unidade por unidade)
 |------------|--------|--------|----------------------------------------
-| 3 (Core)   | YBUS   | [P]    | Y_barra (Implementação da Matriz de Admitância)
-| 3 (Core)   | CORE   | [ ]    | Definir variáveis de estado (Criação do vetor x de 22 var.)
+| 3 (Core)   | YBUS   | [X]    | Y_barra (Implementação da Matriz de Admitância)
+| 3 (Core)   | CORE   | [P]    | Definir variáveis de estado (Criação do vetor x de 22 var.)
 |------------|--------|--------|----------------------------------------
-| 4 (Core)   | POTÊN. | [ ]    | Implementar as equações de potências P e Q ($P_{k}$ e $Q_{k}$) para cálculo das injeções.
+| 4 (Core)   | POTÊN. | [P]    | Implementar as equações de potências P e Q ($P_{k}$ e $Q_{k}$) para cálculo das injeções.
 | 4 (Core)   | CALC.  | [ ]    | Calcular as potências injetadas ($\mathbf{P_{calc}, Q_{calc}}$) a partir das variáveis de estado atuais e da $\mathbf{Y_{bus}}$.
 | 4 (Core)   | MISMA. | [ ]    | Cálculo do Vetor Mismatch ($\Delta \mathbf{F}$) (Erro: Espec. - Calc.)
 | 4 (Core)   | JACOB  | [ ]    | Definir derivadas (Jacobiana - Cálculo dos blocos H, N, M, L) 
