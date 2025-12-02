@@ -7,16 +7,17 @@ caminho_absoluto = r"C:\Users\Sergio\github\ASP\Projetos\Projeto_3–Solucao_do_
 caminho_absoluto2 = r"C:\Users\Sergio\github\ASP\Projetos\Projeto_3–Solucao_do_Fluxo_de_Potencia\Dados\Dados_barras_pu.csv"
 
 df_y = pd.read_csv(caminho_absoluto, sep=',')
-print("Dados lidos para Ybus:")
+print("Dados lidos para Y:")
 print(df_y)
 
 df_barras = pd.read_csv(caminho_absoluto2, sep=',')
-print("Dados das barras:")
+df_barras.set_index('num', inplace=True) # <-- ESTE PASSO É CRUCIAL!
+print("Dados das barras (com 'num' como índice):")
 print(df_barras)
 
 # Criação da matriz Ybus
 # Inicialmente, uma matriz N x N de zeros, onde N é o número de barras
-N = len(df_y) # 14 barras
+N = len(df_barras) # 14 barras
 Y_bus = np.zeros((N, N), dtype=complex)
 print("Matriz Ybus inicial:")
 print(Y_bus)
@@ -61,10 +62,16 @@ for index, row in df_y.iterrows():
     Y_bus[k, k] += y_shunt
     Y_bus[m, m] += y_shunt
 
-    # Iterar sobre as barras para adicionar o shunt de barra Bc
-#for i in range(N):
-#    Bc = df_barras.iloc[i]['Bc'] # Assumindo que 'Bc' é a coluna com o valor
-#    Y_bus[i, i] += 1j * Bc
+# --- PASSO 3: Adicionar Shunt de Barra (Bc) ---
+# Fonte: df_barras_pu
+for i in range(N):
+    Bc = df_barras.loc[i + 1, 'Bc_pu'] # Usando loc com índice baseado em 1
+    Y_bus[i, i] += 1j * Bc
 
 print("Matriz Ybus final:")
 print(Y_bus)
+
+# Salvando a matriz Ybus em um arquivo CSV
+Y_bus_df = pd.DataFrame(Y_bus)
+
+Y_bus_df.to_csv('Matriz_Ybus.csv', index=False)
