@@ -2,7 +2,7 @@
 # Autor: Sergio Pedro Rodrigues Oliveira
 # Data Limite: 07/12/25
 # Início: 19/11/25
-# Data Atualização: 04/12/25
+# Data Atualização: 05/12/25
 
 # LEGENDA: [X] = Concluído | [P] = Em Progresso | [ ] = A Fazer
 # PRIORIDADE: 1 = Crítico / Deve ser feito primeiro; 5 = Finalização
